@@ -1,0 +1,47 @@
+body {
+	maring: 0;
+	overflow: hidden;
+	font-family: Arial, sans-serif;
+}
+
+.slider-container {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.slider {
+	display: flex;
+	width: 300vw;
+	height: 100vh;
+	transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+	width: 100vw;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+button {
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	background: rgba(0, 0, 0, 0.5);
+	color:white;
+	border:none;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+#prev {
+	left:10px;
+}
+
+#next {
+	right:10px;
+}
+
+
